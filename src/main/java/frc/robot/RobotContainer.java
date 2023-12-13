@@ -22,7 +22,6 @@ public class RobotContainer {
     private final SwerveSubsystem s_swerve;
     public static final Pigeon2Subsystem s_pigeon2 = new Pigeon2Subsystem(SwerveConstants.pigeonID);
     private final ReportingSubsystem s_reportingSubsystem;
-
     private final SlewRateLimiter slewRateLimiterX = new SlewRateLimiter(15);
     private final SlewRateLimiter slewRateLimiterY = new SlewRateLimiter(15);
     public final static PowerDistribution m_PowerDistribution = new PowerDistribution(PowerConstants.kPCMChannel,
